@@ -1,9 +1,13 @@
 import React from 'react'
+import './App.css'
+import Card from './Components/Card'
+
 
 function App() {
   return (
-    <div>
-        <h1>Hai</h1>
+    <div className='container'>
+      <br></br>
+        <Card/>
     </div>
   )
 }
