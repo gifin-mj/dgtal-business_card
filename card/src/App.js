@@ -8,6 +8,7 @@ function App() {
     <div className='container'>
       <br></br>
         <Card/>
+        <br></br>
     </div>
   )
 }

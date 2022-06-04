@@ -16,7 +16,7 @@ body{
     text-align: center;
 }
 .propic{
-    width: 325px;
+    width: 310px;
     height: 275px;
 }
 .card h1{
@@ -26,10 +26,12 @@ body{
     line-height: 30px;
 }
 .prof{
+    
     color: #F3BF99;
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
+    
 }
 p a{
     color: #F5F5F5;
@@ -37,6 +39,8 @@ p a{
     font-size: 10.24px;
     line-height: 150%;
     text-decoration: none;
+    width: 228px;
+    height: 16px;
 }
 .btns{
     display: flex;
@@ -53,14 +57,17 @@ p a{
     align-items: center;
     padding: 9px 13px 9px 11px;
     gap: 8px;
-    width: 115px;
+    width: 130px;
     height: 34px;
-    margin-left: 20px;
+    margin-left: 10px;
     background: #FFFFFF;
     border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     color: #374151;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 .bt-lnkdin{
     display: flex;
@@ -69,11 +76,53 @@ p a{
     align-items: center;
     padding: 9px 13px 9px 11px;
     gap: 8px;
-    width: 115px;
+    width: 130px;
     height: 34px;
     margin-left: 10px;
     background: #5093E2;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     color: white;
+    font-size: 14px;
+    line-height: 16px;
+}
+.about{
+    text-align: left;
+    margin: 0px 30px;
+    
+}
+.about h2{
+    width: 242.71px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.about p{
+    color: #DCDCDC;
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 561px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+}
+.footer{
+    background-color: #161619;
+    width: 300px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    gap: 5px;
+}
+.footer img{
+    margin-left: 20px;
 }
